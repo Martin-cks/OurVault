@@ -5,7 +5,8 @@ import { loginUrl } from "./auth/spotify";
 function App() {
   return (
     <div>
-      <h1>OurVault Playlist Sharing</h1>
+      <h1>OurVault</h1>
+      <h2>a site for Playlist sharing</h2>
       <a href={loginUrl}>LOGIN WITH SPOTIFY</a>
     </div>
   );
